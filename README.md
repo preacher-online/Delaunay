@@ -1,4 +1,4 @@
-# 2DDelaunay for Roblox Lua
+# 2D Delaunay for Roblox Lua
 Delaunay triangulation
 
 Based on delaunay by iskolbin (https://github.com/iskolbin/delaunay)
