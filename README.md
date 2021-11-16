@@ -1,7 +1,7 @@
 # Delaunay for Roblox Lua
 Delaunay triangulation
 
-Based on delaunay by https://github.com/iskolbin/delaunay
+Based on delaunay by iskolbin (https://github.com/iskolbin/delaunay)
 
 **Differences:**
 
