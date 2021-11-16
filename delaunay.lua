@@ -231,18 +231,14 @@ end
 ------------------------------------------------------------DEL------------------------------------------------------------
 
 
-function delaunay.triangulateVec2s(v2s)
-	local points = {}
-	
+function delaunay.triangulate(v2s)
+	local vertices = {}
+
 	for _,v2 in pairs(v2s) do
-		insert(points, newPoint(v2.x, v2.y))
+		insert(vertices, newPoint(v2.x, v2.y))
 	end
 	
-	return delaunay.triangulatePoints(points)
-end
-
-
-function delaunay.triangulatePoints(vertices)
+	
 	local nvertices = #vertices
 	
 	if not (nvertices > 2) then error("Cannot triangulate, needs more than 3 vertices") end
