@@ -36,7 +36,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -- is loaded and shouldn't change it later.
 
 
---Edited by psyoper for Roblox Lua
+--Edited by preacher-online for Roblox Lua
 --
 --optimized to be ~10x faster by: removing metatables & oop (slight boost), 
 --localizing funcs (slight boost), caching triangle circumCircles (huge boost),
